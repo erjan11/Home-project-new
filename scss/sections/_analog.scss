@@ -1,0 +1,50 @@
+.analog{
+    position: relative;
+    margin-top: 170px;
+    height: 100vh;
+    background: url(../img/bc2.jpg) center no-repeat ;
+    background-size: cover;
+    &__img{
+        margin-bottom: -5px;
+    }
+    &__banner{
+        width: 100%;
+        height: 600px;
+        
+        
+    }
+
+    &__title{
+        position: absolute;
+        bottom: 291px;
+        left: 150px;
+        max-width: 360px;
+        @include font(20px, 54px);
+        color: $text-white;
+        
+    }
+    &__btn{
+        position: absolute;
+        bottom: 237px;
+        left: 150px;
+        @include font(15px, 40px);
+        color: $text-white;
+        width: 182px;
+        height: 40px;
+        background: #7E6E45;
+        border: 1px solid #7E6E45;
+        box-sizing: border-box;
+        border-radius: 0px;
+        cursor: pointer;
+    }
+    &__description{
+        position: absolute;
+        @include font(15px, 22px);
+        color: $text-white;
+        text-decoration: underline;
+        bottom: 180px;
+        left: 150px;
+        cursor: pointer;
+    }
+    
+}

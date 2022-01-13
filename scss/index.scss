@@ -1,0 +1,28 @@
+@import "./helpers/variables";
+@import "./helpers/mixins";
+
+@import './sections/header';
+@import'./sections/hero';
+@import './sections/catalog';
+@import './sections/analog';
+@import './sections/journal';
+@import './sections/mission';
+@import './sections/story';
+@import './sections/loop';
+@import './sections/footer';
+
+@import './sections/mobile';
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}

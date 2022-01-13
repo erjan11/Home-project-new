@@ -1,0 +1,71 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+ 
+
+
+    
+    &__logo{
+        display: flex;
+        margin: 0px;
+        padding-left: 46px;
+        color: #1A1A1AB5
+        
+    }
+    &__title{
+        @include font(37px, 21px);
+        margin-right: 46px;
+    }
+    
+ 
+
+    .nav__list{
+        @include font(16px, 20px);
+        color: $text-dark;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        
+    }
+        
+    
+    .nav__item{
+        margin: 32px;
+        list-style: none;
+        
+}
+.navigation{
+    @include font(15px, 18px);
+    color: $text-dark;
+    
+&__list{
+    display: flex;
+    position: relative;
+}
+&__item{
+    list-style: none;
+    padding-right: 20px;
+    border-right:  1px solid ;
+    margin-right: 20px;
+}
+}
+&__input{
+    background: $bg-white;
+    border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 0px;
+    width: 300px;
+    height: 43px;
+    margin-top: 10px;
+    margin-left: 38px;
+    background: $bg-white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 0px;
+    position: absolute;
+}
+}
+
+
+

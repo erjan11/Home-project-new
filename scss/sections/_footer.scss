@@ -1,0 +1,44 @@
+.footer{
+    .nav{
+        display: flex;
+
+        &__list{
+            list-style-type: none;
+            padding: 70px;
+            @include font (15px, 15px);
+            margin-right: auto;
+            
+        }
+        &__item{
+            padding: 10px;
+        }
+    }
+
+    &__content{
+        display: flex;
+    }
+    &__right{
+        &_top{
+        display: flex;
+        padding-top: 85px;
+        padding-left: 200px
+    }
+    &_text{
+        @include font(15px, 21px);
+        text-align: right;
+        margin-right: 10px;
+        max-width: 233px;
+    }
+    &_logo{
+        max-height: 88px;
+    }
+     &_bottom{
+         text-align: right;
+         padding-top: 35px;
+         
+         .svg{
+             margin: 5px;
+         }
+     }
+    }
+}

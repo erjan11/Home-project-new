@@ -1,0 +1,72 @@
+.catalog{
+    .nav__list{
+        max-width: 750px;
+        padding-left: 150px;
+        @include font (17px, 27px);
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        cursor: pointer;
+        
+        margin-top: 40px;
+        margin: 48px;
+        color: #B3B3B3;
+        position: relative;
+        :first-child{
+            color: $text-dark;
+            border-bottom: solid 2px;
+            .line{
+                width: 100px;
+                height: 3px;
+                background-color: black;
+                position: absolute;
+            }
+        }
+        
+
+    }
+    .nav__item{
+        list-style: none;
+    }
+
+    &__item{
+        &_name{
+            @include font(15px, 18px);
+            color: $text-black;
+            span{
+                @include font(14px, 18px);
+                color: $text-grey;
+            }
+        }
+        &_price{
+            @include font(13px, 13px);
+            color: $text-dark;
+            margin-bottom: 30px;
+            span{
+                @include font(13px, 13px);
+                color: $text-red;
+            }
+        }
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+
+        &__column{
+         width: 25%;
+         
+        }
+    }
+
+    &__btn{
+       margin-left: 390px;
+       margin-top: 97px;
+       @include font(20px, 56px);
+       color: #F7F7F7;
+       background-color: $bg-black;
+       width: 302px;
+       height: 56px;
+    }
+    
+}

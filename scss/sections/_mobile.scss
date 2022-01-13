@@ -1,0 +1,43 @@
+@media screen and (max-width: 576px) {
+    .container{
+        max-width: none;
+    }
+    .header__logo{
+        text-align: center;
+    }
+      .header__nav{
+          display: none;
+      }
+      .navigation{
+          display: none;
+      }
+      .hero{
+        background-size: cover;
+        &__title{
+            max-width: 120px;
+            margin-bottom: 50px;
+            
+        }
+      }
+      
+      .catalog{
+          &__nav{
+              display: none;
+          }
+          .row{
+              flex-direction: column;
+              padding-left: 40px;
+              width: 100%;
+          }
+          &__btn{
+              margin-left: 40px;
+          }
+      }
+      .analog{
+          background-size: cover;
+      }
+
+      .erjan{
+          display: none;
+      }
+    }

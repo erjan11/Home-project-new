@@ -1,0 +1,33 @@
+.loop{
+        margin-top: 0px;
+        background-color: #CED3CA;
+        height: 440px;
+
+        &__text{
+            padding-top: 70px;
+            text-align: center; 
+            display: flex;
+            justify-content: center;
+            
+            flex-direction: column;
+            &_h{
+                @include font(34px, 41px);
+            }
+            &_p{
+            @include font(16px, 22px);
+            margin-top: 0;
+            max-width: 370px;
+            align-self: center;
+            }
+        }
+     .label{
+         input{
+            width: 420px;
+            height: 40px;
+            margin-top: 56px;
+         }
+     }
+
+     margin-right: 0;
+        
+}

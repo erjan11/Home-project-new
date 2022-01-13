@@ -1,0 +1,32 @@
+
+.mission{
+    margin-top: 113px;
+    &__title{
+        max-width: 630px;
+        text-align: center;
+        @include font(30px, 36px);
+        padding-left: 265px;
+        margin-bottom: 92px;
+    }
+    &__women{
+        padding-left: 100px;
+    }
+    &__shop{
+        display: flex;
+        @include font(16px, 24px);
+        text-decoration: underline;
+        cursor: pointer;
+
+        &_text{
+            padding-left: 545px;
+        }
+       padding-bottom: 70px;
+    }
+        &__underline{
+            border-bottom: solid 2px #1A1A1A;
+            max-width: 112px;
+            @include font(16px, 24px);
+            cursor: pointer;
+        }
+    
+}
